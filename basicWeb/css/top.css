@@ -43,25 +43,35 @@
 }
 
 .bottom__contents .contents__column-left {
-    width: 250px;
+    border-top: 1px solid #1e1e1e;
+    width: 220px;
+    margin-right:40px;
 }
-
-.bottom__contents .contents__column-left .content__title {
+.bottom__contents .contents__column-right {
+    box-sizing: border-box;
+    border-top: 1px solid #1e1e1e;
+    width: 250px;
+    margin-right:40px;
+}
+.bottom__contents .contents__column-left .content__title,
+.bottom__contents .contents__column-right .content__title {
+    display:flex;
+    padding-top: 20px;
+}
+.bottom__contents .contents__column-left .content__title-1,
+.bottom__contents .contents__column-right .content__title-1 {
     display:flex;
     flex-direction: column;
-    border-top: 1px solid #1e1e1e;
-    padding-top: 20px;
-    margin-right: 40px;
-    line-height: 22px;
-    width:60px;
+    width: 70px;
+    line-height: 30px;
 }
-
-.bottom__contents .contents__column-left .content__info {
-    display:block;
+.bottom__contents .contents__column-left .content__title-2,
+.bottom__contents .contents__column-right .content__title-2 {
+    display:flex;
+    flex-direction: column;
+    line-height: 30px;
 }
-
-.bottom__contents .contents__column-right {
-    border-top: 1px solid #1e1e1e;
-    padding-top:20px;
-    margin-right:40px;
+.uni-info, .major-info, .campus-info,
+.email-info, .number-info, .address-info {
+    color:#767676;
 }
