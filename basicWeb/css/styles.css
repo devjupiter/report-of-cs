@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "top.css";
+
+body {
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    height:312px;
+    width:620px;
+}
